@@ -29,10 +29,9 @@ pipeline {
                 sh ./run.sh
                 '''
             }
-
         }
     }
-        Post {
+    post {
             always {
                 archiveArtifacts '*.zip'
                             }   
