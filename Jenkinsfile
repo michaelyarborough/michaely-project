@@ -34,8 +34,7 @@ pipeline {
     }
         Post {
             always {
-                archiveArtifacts'*.zip'
-
-            }   
+                archiveArtifacts '*.zip'
+                            }   
         }
     }
