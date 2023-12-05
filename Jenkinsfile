@@ -31,6 +31,7 @@ pipeline {
             }
 
         }
+    }
         Post {
             always {
                 archiveArtifacts'*.zip'
@@ -38,5 +39,3 @@ pipeline {
             }   
         }
     }
-
-}
